@@ -20,13 +20,14 @@ new_list = []
 for text in txt:
     lower_txt = text.lower()
     new_list.append(lower_txt)
+    # new_list.append(lower_txt)
 
 
 # In[ ]:
 
 
 new_sentence = ' '.join(new_list)
-
+# new_sentence = ' '.join(new_list)
 
 # In[ ]:
 
